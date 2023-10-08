@@ -1,0 +1,95 @@
+body {
+    font-family: 'Courier New' ,monospace;
+    font-size: 100%;
+    font-weight: bold;
+    /* transition: background-color 0.5s,color 0.5s; */
+}
+fieldset {
+    border: 2px solid rgb(0, 0, 0);
+}
+
+legend {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+#container {
+	margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#layer {
+    position: relative;
+    width: 1000px;
+    height: 500px;
+    
+    border: 3px dashed rgb(0, 0, 0);
+    border-radius: 3%;
+
+    /* transition: background-color 0.5s,color 0.5s; */
+}
+
+#numbox {
+    border-radius: 2px;
+    border: 1px dashed;
+    padding: 3px;
+}
+
+#numberText {
+    font-size: 125%;
+    font-weight: bold;
+}
+
+#color {
+    font-weight: bold;
+
+    border-radius: 2px;
+    border: 1px dashed;
+    padding: 2px;
+}
+
+#start {
+    font-weight: bold;
+    
+    box-sizing: border-box;
+    border-radius: 2px;
+    box-shadow: 0 0 0 rgb(121, 120, 120);
+    border: 1px dashed;
+    padding: 3px;
+
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+    cursor: pointer;
+}
+
+#timerClock {
+    font-size: 125%;
+    font-weight: bold;
+}
+
+#clock {
+    font-size: 300%;
+    font-weight: bold;
+}
+
+.square {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20%;
+}
+
+.maroon{
+    background-color: maroon; 
+}
+.lightgreen{
+    background-color: lightgreen; 
+}
+
+.magenta{
+    background-color: magenta; 
+}
+
