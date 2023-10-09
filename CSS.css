@@ -430,3 +430,156 @@ a:hover{
     color: rgb(255, 255, 255);
 }
 
+/* Responsive */
+
+@media only screen and (max-width: 900px){
+    .header {
+        font-size: 125%;
+    }
+
+    .button {
+        width: 75%;
+    }
+
+    .About_Me {
+        font-size: 100%;
+    }
+
+    #img_Profile_pic {
+        width: 75%;
+        border-radius: 12px;
+        border: 10px solid rgb(255, 255, 255);
+    }
+
+    #section_About_Me {
+        margin-bottom: 12%;
+    }
+    
+    #section_Skill {
+        margin-bottom: 7%;
+    }
+    
+    #section_Contact {
+        margin-bottom: 10%;
+    }
+
+    #legend_About_ME {
+        font-size: 200%;
+        font-weight: bold;
+        text-align: left;
+        padding: 0% 2% 0% 2%;
+    }
+
+    #legend_Skill {
+        font-size: 200%;
+        font-weight: bold;
+        text-align: right;
+        padding: 0% 2% 0% 2%;
+        
+    }
+
+    #legend_Skill_ass {
+        font-size: 150%;
+        font-weight: bold;
+        padding: 0% 2% 0% 2%;
+        
+    }
+
+    #div_Skill_ass {
+        font-size: 100%;
+    }
+
+    #legend_Skill_project {
+        font-size: 150%;
+        font-weight: bold;
+        padding: 0% 2% 0% 2%;
+        
+    }
+
+    #div_Skill_project {
+        font-size: 100%;
+    }
+
+    #legend_Contact {
+        font-size: 200%;
+        font-weight: bold;
+        text-align: left;
+        padding: 0% 2% 0% 2%;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .header {
+        font-size: 100%;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    .About_Me {
+        font-size: 75%;
+    }
+
+    #img_Profile_pic {
+        width: 85%;
+        border-radius: 8px;
+        border: 5px solid rgb(255, 255, 255);
+    }
+
+    #section_About_Me {
+        margin-bottom: 5%;
+    }
+    
+    #section_Skill {
+        margin-bottom: 5%;
+    }
+    
+    #section_Contact {
+        margin-bottom: 5%;
+    }
+
+    #legend_About_ME {
+        font-size: 150%;
+        font-weight: bold;
+        text-align: left;
+        padding: 0% 2% 0% 2%;
+    }
+
+    #legend_Skill {
+        font-size: 150%;
+        font-weight: bold;
+        text-align: right;
+        padding: 0% 2% 0% 2%;
+        
+    }
+
+    #legend_Skill_ass {
+        font-size: 100%;
+        font-weight: bold;
+        padding: 0% 2% 0% 2%;
+        
+    }
+
+    #div_Skill_ass {
+        font-size: 75%;
+    }
+
+    #legend_Skill_project {
+        font-size: 100%;
+        font-weight: bold;
+        padding: 0% 2% 0% 2%;
+        
+    }
+
+    #div_Skill_project {
+        font-size: 75%;
+    }
+
+    #legend_Contact {
+        font-size: 150%;
+        font-weight: bold;
+        text-align: left;
+        padding: 0% 2% 0% 2%;
+    }
+}
