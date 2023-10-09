@@ -508,9 +508,9 @@ a:hover{
     }
 }
 
-@media only screen and (max-width: 414px){
+@media only screen and (max-width: 480px){
     .header {
-        font-size: 100%;
+        font-size: 85%;
     }
 
     .button {
