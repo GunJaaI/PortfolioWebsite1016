@@ -540,14 +540,14 @@ a:hover{
     }
 
     #legend_About_ME {
-        font-size: 150%;
+        font-size: 125%;
         font-weight: bold;
         text-align: left;
         padding: 0% 2% 0% 2%;
     }
 
     #legend_Skill {
-        font-size: 150%;
+        font-size: 125%;
         font-weight: bold;
         text-align: right;
         padding: 0% 2% 0% 2%;
@@ -577,7 +577,7 @@ a:hover{
     }
 
     #legend_Contact {
-        font-size: 150%;
+        font-size: 125%;
         font-weight: bold;
         text-align: left;
         padding: 0% 2% 0% 2%;
