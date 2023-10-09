@@ -506,6 +506,60 @@ a:hover{
         text-align: left;
         padding: 0% 2% 0% 2%;
     }
+
+    #legend_My_project {
+        font-size: 200%;
+        font-weight: bold;
+        text-align: left;
+        padding: 0% 2% 0% 2%;
+    }
+
+    #legend_My_project_ProjectI {
+        font-size: 150%;
+        font-weight: bold;
+        padding: 0% 2% 0% 2%;
+    }
+
+    #div_My_project_ProjectI {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        align-items: center;
+    
+        font-size: 90%;
+    }
+
+    #img_ProjectI_pic {
+        width: 85%;
+        border-radius: 8px;
+        border: 5px solid rgb(255, 255, 255);
+    }
+
+    .img_ProjectI_GP_pic {
+        width: 27%;
+        border-radius: 8px;
+        border: 5px solid rgb(255, 255, 255);
+    }
+
+    #legend_My_project_Drive_Dripper {
+        font-size: 150%;
+        font-weight: bold;
+        padding: 0% 2% 0% 2%;
+    }
+
+    #div_My_project_Drive_Dripper {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        align-items: center;
+    
+        font-size: 90%;
+    }
+
+    #img_DriveDripper_pic {
+        width: 85%;
+        border-radius: 8px;
+        border: 5px solid rgb(255, 255, 255);
+    }
+    
 }
 
 @media only screen and (max-width: 480px){
